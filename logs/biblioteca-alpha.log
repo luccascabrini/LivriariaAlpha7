@@ -1,0 +1,368 @@
+2026-01-09 13:01:01.589 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Starting BibliotecaAlphaApplication using Java 1.8.0_472 on Luccas with PID 8876 (C:\Users\lucca\Área de Trabalho\LivriariaAlpha7\target\classes started by lucca in C:\Users\lucca\Área de Trabalho\LivriariaAlpha7)
+2026-01-09 13:01:01.589 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-09 13:01:01.993 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09 13:01:02.038 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2026-01-09 13:01:02.415 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09 13:01:02.486 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-01-09 13:01:02.669 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-09 13:01:02.976 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 13:01:03.169 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 13:01:03.192 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-01-09 13:01:03.902 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-09 13:01:03.913 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 13:01:04.563 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Started BibliotecaAlphaApplication in 3.49 seconds (JVM running for 4.057)
+2026-01-09 13:01:04.568 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Contexto Spring Boot inicializado.
+2026-01-09 13:01:05.598 [AWT-EventQueue-0] INFO  b.c.d.b.BibliotecaAlphaApplication - Interface gráfica iniciada.
+2026-01-09 13:01:16.673 [Thread-4] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 0
+2026-01-09 13:01:16.673 [Thread-4] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 0
+2026-01-09 13:01:16.673 [Thread-4] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 0
+2026-01-09 13:01:19.258 [Thread-4] INFO  b.c.d.b.service.OpenLibraryService - Dados do livro 'All We Ever Wanted: A Novel' processados com sucesso.
+2026-01-09 13:01:19.258 [Thread-4] INFO  b.c.d.b.service.LivroService - Livro encontrado na API externa: All We Ever Wanted: A Novel
+2026-01-09 13:05:48.988 [Thread-5] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 0
+2026-01-09 13:05:48.989 [Thread-5] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 0
+2026-01-09 13:05:48.989 [Thread-5] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 0
+2026-01-09 13:05:50.804 [Thread-5] INFO  b.c.d.b.service.OpenLibraryService - Dados do livro 'All We Ever Wanted: A Novel' processados com sucesso.
+2026-01-09 13:05:50.805 [Thread-5] INFO  b.c.d.b.service.LivroService - Livro encontrado na API externa: All We Ever Wanted: A Novel
+2026-01-09 13:07:05.665 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 13:07:05.668 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-09 13:07:05.670 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-09 13:07:20.715 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Starting BibliotecaAlphaApplication using Java 1.8.0_472 on Luccas with PID 8684 (C:\Users\lucca\Área de Trabalho\LivriariaAlpha7\target\classes started by lucca in C:\Users\lucca\Área de Trabalho\LivriariaAlpha7)
+2026-01-09 13:07:20.716 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-09 13:07:21.086 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09 13:07:21.132 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2026-01-09 13:07:21.483 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09 13:07:21.536 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-01-09 13:07:21.720 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-09 13:07:22.026 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 13:07:22.202 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 13:07:22.222 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-01-09 13:07:22.861 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-09 13:07:22.873 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 13:07:23.466 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Started BibliotecaAlphaApplication in 3.238 seconds (JVM running for 3.884)
+2026-01-09 13:07:23.468 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Contexto Spring Boot inicializado.
+2026-01-09 13:07:24.243 [AWT-EventQueue-0] INFO  b.c.d.b.BibliotecaAlphaApplication - Interface gráfica iniciada.
+2026-01-09 13:14:29.085 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 13:14:29.088 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-09 13:14:29.091 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-09 13:14:31.068 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Starting BibliotecaAlphaApplication using Java 1.8.0_472 on Luccas with PID 21124 (C:\Users\lucca\Área de Trabalho\LivriariaAlpha7\target\classes started by lucca in C:\Users\lucca\Área de Trabalho\LivriariaAlpha7)
+2026-01-09 13:14:31.069 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-09 13:14:31.505 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09 13:14:31.568 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2026-01-09 13:14:31.938 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09 13:14:31.988 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-01-09 13:14:32.149 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-09 13:14:32.426 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 13:14:32.606 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 13:14:32.624 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-01-09 13:14:33.284 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-09 13:14:33.295 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 13:14:33.896 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Started BibliotecaAlphaApplication in 3.449 seconds (JVM running for 4.123)
+2026-01-09 13:14:33.899 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Contexto Spring Boot inicializado.
+2026-01-09 13:14:34.710 [AWT-EventQueue-0] INFO  b.c.d.b.BibliotecaAlphaApplication - Interface gráfica iniciada.
+2026-01-09 13:29:06.438 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 13:29:06.441 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-09 13:29:06.443 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-09 16:12:35.467 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Starting BibliotecaAlphaApplication using Java 1.8.0_472 on Luccas with PID 13624 (C:\Users\lucca\Área de Trabalho\LivriariaAlpha7\target\classes started by lucca in C:\Users\lucca\Área de Trabalho\LivriariaAlpha7)
+2026-01-09 16:12:35.469 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-09 16:12:36.110 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09 16:12:36.173 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2026-01-09 16:12:36.653 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09 16:12:36.751 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-01-09 16:12:36.969 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-09 16:12:37.345 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 16:12:37.614 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 16:12:37.639 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-01-09 16:12:38.547 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-09 16:12:38.558 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 16:12:39.245 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Started BibliotecaAlphaApplication in 4.393 seconds (JVM running for 6.042)
+2026-01-09 16:12:39.247 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Contexto Spring Boot inicializado.
+2026-01-09 16:12:40.769 [AWT-EventQueue-0] INFO  b.c.d.b.BibliotecaAlphaApplication - Interface gráfica iniciada.
+2026-01-09 16:16:56.898 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de exclusão recebida para ID: 22
+2026-01-09 16:16:56.899 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Solicitação de exclusão para o livro ID: 22
+2026-01-09 16:16:56.915 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro ID 22 excluído com sucesso
+2026-01-09 16:17:41.659 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de exclusão recebida para ID: 23
+2026-01-09 16:17:41.659 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Solicitação de exclusão para o livro ID: 23
+2026-01-09 16:17:41.661 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro ID 23 excluído com sucesso
+2026-01-09 16:17:47.679 [Thread-4] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 0
+2026-01-09 16:17:47.679 [Thread-4] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 0
+2026-01-09 16:17:47.679 [Thread-4] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 0
+2026-01-09 16:17:50.012 [Thread-4] INFO  b.c.d.b.service.OpenLibraryService - Dados do livro 'All We Ever Wanted: A Novel' processados com sucesso.
+2026-01-09 16:17:50.012 [Thread-4] INFO  b.c.d.b.service.LivroService - Livro encontrado na API externa: All We Ever Wanted: A Novel
+2026-01-09 16:17:56.131 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de salvamento recebida. Título: All We Ever Wanted: A Novel, ISBN: 0
+2026-01-09 16:17:56.132 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Tentando salvar livro. Título: 'All We Ever Wanted: A Novel', ISBN: '0'
+2026-01-09 16:17:56.215 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro salvo com sucesso. ID: 32
+2026-01-09 16:18:05.023 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de salvamento recebida. Título: All We Ever Wanted: A Novel, ISBN: 0
+2026-01-09 16:18:05.024 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Tentando salvar livro. Título: 'All We Ever Wanted: A Novel', ISBN: '0'
+2026-01-09 16:18:05.045 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro salvo com sucesso. ID: 32
+2026-01-09 16:18:15.719 [AWT-EventQueue-0] INFO  b.c.d.b.facade.ImportacaoFacade - Recebida solicitação de importação do arquivo: C:\Users\lucca\Área de Trabalho\livros.csv
+2026-01-09 16:18:15.724 [AWT-EventQueue-0] INFO  b.c.d.b.service.ImportacaoService - Iniciando processo de importação CSV. Arquivo: C:\Users\lucca\Área de Trabalho\livros.csv
+2026-01-09 16:18:15.776 [AWT-EventQueue-0] INFO  b.c.d.b.service.ImportacaoService - Importação finalizada com sucesso. Total lido: 10, Novos: 1, Atualizados: 9
+2026-01-09 16:18:19.796 [AWT-EventQueue-0] INFO  b.c.d.b.facade.ExportacaoFacade - Iniciando solicitação de exportação para o arquivo: C:\Users\lucca\OneDrive\Documentos\relatorio_livros.csv
+2026-01-09 16:18:19.796 [AWT-EventQueue-0] INFO  b.c.d.b.service.ExportacaoService - Iniciando exportação de CSV para o arquivo: C:\Users\lucca\OneDrive\Documentos\relatorio_livros.csv
+2026-01-09 16:18:19.799 [AWT-EventQueue-0] INFO  b.c.d.b.service.ExportacaoService - Total de livros encontrados para exportação: 14
+2026-01-09 16:18:19.801 [AWT-EventQueue-0] INFO  b.c.d.b.service.ExportacaoService - Arquivo de exportação gerado com sucesso em: C:\Users\lucca\OneDrive\Documentos\relatorio_livros.csv
+2026-01-09 16:49:29.922 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 16:49:29.961 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-09 16:49:29.976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-09 18:31:38.963 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Starting BibliotecaAlphaApplication using Java 1.8.0_472 on Luccas with PID 32684 (C:\Users\lucca\Área de Trabalho\LivriariaAlpha7\target\classes started by lucca in C:\Users\lucca\Área de Trabalho\LivriariaAlpha7)
+2026-01-09 18:31:38.971 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-09 18:31:39.466 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09 18:31:39.523 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2026-01-09 18:31:39.937 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09 18:31:40.015 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-01-09 18:31:40.221 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-09 18:31:40.544 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 18:31:40.787 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 18:31:40.813 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-01-09 18:31:41.563 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-09 18:31:41.576 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 18:31:42.223 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Started BibliotecaAlphaApplication in 3.757 seconds (JVM running for 4.391)
+2026-01-09 18:31:42.225 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Contexto Spring Boot inicializado.
+2026-01-09 18:31:43.531 [AWT-EventQueue-0] INFO  b.c.d.b.BibliotecaAlphaApplication - Interface gráfica iniciada.
+2026-01-09 18:37:09.414 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 18:37:09.417 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-09 18:37:09.421 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-09 19:02:15.116 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Starting BibliotecaAlphaApplication using Java 1.8.0_472 on Luccas with PID 40720 (C:\Users\lucca\Área de Trabalho\LivriariaAlpha7\target\classes started by lucca in C:\Users\lucca\Área de Trabalho\LivriariaAlpha7)
+2026-01-09 19:02:15.118 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-09 19:02:15.634 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09 19:02:15.688 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2026-01-09 19:02:16.171 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09 19:02:16.245 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-01-09 19:02:16.442 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-09 19:02:16.775 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 19:02:17.031 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 19:02:17.051 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-01-09 19:02:17.864 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-09 19:02:17.875 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 19:02:18.818 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Started BibliotecaAlphaApplication in 4.34 seconds (JVM running for 4.955)
+2026-01-09 19:02:18.821 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Contexto Spring Boot inicializado.
+2026-01-09 19:02:20.081 [AWT-EventQueue-0] INFO  b.c.d.b.BibliotecaAlphaApplication - Interface gráfica iniciada.
+2026-01-09 19:02:37.175 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de exclusão recebida para ID: 26
+2026-01-09 19:02:37.176 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Solicitação de exclusão para o livro ID: 26
+2026-01-09 19:02:37.191 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro ID 26 excluído com sucesso
+2026-01-09 19:02:48.728 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de exclusão recebida para ID: 33
+2026-01-09 19:02:48.729 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Solicitação de exclusão para o livro ID: 33
+2026-01-09 19:02:48.731 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro ID 33 excluído com sucesso
+2026-01-09 19:02:52.872 [Thread-4] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9788576082675
+2026-01-09 19:02:52.872 [Thread-4] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9788576082675
+2026-01-09 19:02:52.872 [Thread-4] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9788576082675
+2026-01-09 19:02:56.729 [Thread-4] INFO  b.c.d.b.service.OpenLibraryService - Dados do livro 'Código Limpo. Habilidades Práticas Do Agile Softwar' processados com sucesso.
+2026-01-09 19:02:56.729 [Thread-4] INFO  b.c.d.b.service.LivroService - Livro encontrado na API externa: Código Limpo. Habilidades Práticas Do Agile Softwar
+2026-01-09 19:03:05.639 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de salvamento recebida. Título: Código Limpo. Habilidades Práticas Do Agile Softwar, ISBN: 9788576082675
+2026-01-09 19:03:05.639 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Tentando salvar livro. Título: 'Código Limpo. Habilidades Práticas Do Agile Softwar', ISBN: '9788576082675'
+2026-01-09 19:03:05.691 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro salvo com sucesso. ID: 34
+2026-01-09 19:03:40.111 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de exclusão recebida para ID: 34
+2026-01-09 19:03:40.111 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Solicitação de exclusão para o livro ID: 34
+2026-01-09 19:03:40.112 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro ID 34 excluído com sucesso
+2026-01-09 19:03:43.403 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de exclusão recebida para ID: 15
+2026-01-09 19:03:43.403 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Solicitação de exclusão para o livro ID: 15
+2026-01-09 19:03:43.404 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro ID 15 excluído com sucesso
+2026-01-09 19:03:46.395 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de exclusão recebida para ID: 19
+2026-01-09 19:03:46.396 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Solicitação de exclusão para o livro ID: 19
+2026-01-09 19:03:46.396 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro ID 19 excluído com sucesso
+2026-01-09 19:03:55.023 [AWT-EventQueue-0] INFO  b.c.d.b.facade.ImportacaoFacade - Recebida solicitação de importação do arquivo: C:\Users\lucca\Área de Trabalho\livros.csv
+2026-01-09 19:03:55.029 [AWT-EventQueue-0] INFO  b.c.d.b.service.ImportacaoService - Iniciando processo de importação CSV. Arquivo: C:\Users\lucca\Área de Trabalho\livros.csv
+2026-01-09 19:03:55.068 [AWT-EventQueue-0] INFO  b.c.d.b.service.ImportacaoService - Importação finalizada com sucesso. Total lido: 10, Novos: 3, Atualizados: 7
+2026-01-09 19:04:49.489 [Thread-6] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 21
+2026-01-09 19:04:49.489 [Thread-6] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 21
+2026-01-09 19:04:49.489 [Thread-6] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 21
+2026-01-09 19:04:57.610 [Thread-6] INFO  b.c.d.b.service.OpenLibraryService - Dados do livro '20+ Thiết Bị Mạng Chính Hãng Giá Tốt Nhất Tại TPHCM' processados com sucesso.
+2026-01-09 19:04:57.610 [Thread-6] INFO  b.c.d.b.service.LivroService - Livro encontrado na API externa: 20+ Thiết Bị Mạng Chính Hãng Giá Tốt Nhất Tại TPHCM
+2026-01-09 19:05:06.351 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de salvamento recebida. Título: 20+ Thiết Bị Mạng Chính Hãng Giá Tốt Nhất Tại TPHCM, ISBN: 21
+2026-01-09 19:05:06.351 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Tentando salvar livro. Título: '20+ Thiết Bị Mạng Chính Hãng Giá Tốt Nhất Tại TPHCM', ISBN: '21'
+2026-01-09 19:05:06.355 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro salvo com sucesso. ID: 38
+2026-01-09 19:05:29.281 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de exclusão recebida para ID: 35
+2026-01-09 19:05:29.282 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Solicitação de exclusão para o livro ID: 35
+2026-01-09 19:05:29.283 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro ID 35 excluído com sucesso
+2026-01-09 19:05:32.465 [Thread-7] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9788532511010
+2026-01-09 19:05:32.465 [Thread-7] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9788532511010
+2026-01-09 19:05:32.465 [Thread-7] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9788532511010
+2026-01-09 19:05:34.391 [Thread-7] INFO  b.c.d.b.service.OpenLibraryService - Dados do livro 'Harry Potter e a Pedra Filosofal' processados com sucesso.
+2026-01-09 19:05:34.391 [Thread-7] INFO  b.c.d.b.service.LivroService - Livro encontrado na API externa: Harry Potter e a Pedra Filosofal
+2026-01-09 19:05:39.361 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de salvamento recebida. Título: Harry Potter e a Pedra Filosofal, ISBN: 9788532511010
+2026-01-09 19:05:39.361 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Tentando salvar livro. Título: 'Harry Potter e a Pedra Filosofal', ISBN: '9788532511010'
+2026-01-09 19:05:39.368 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro salvo com sucesso. ID: 39
+2026-01-09 19:05:57.996 [Thread-8] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9786581339081
+2026-01-09 19:05:57.997 [Thread-8] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9786581339081
+2026-01-09 19:05:57.997 [Thread-8] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9786581339081
+2026-01-09 19:05:58.633 [Thread-8] WARN  b.c.d.b.service.OpenLibraryService - API retornou resposta vazia para o ISBN: 9786581339081
+2026-01-09 19:05:58.634 [Thread-8] WARN  b.c.d.b.service.LivroService - API externa não retornou dados para ISBN: 9786581339081
+2026-01-09 19:05:58.636 [Thread-8] ERROR b.c.d.b.service.LivroService - Falha na comunicação com API externa
+br.com.dev.bibliotecaalpha.exception.ServiceException: Livro não encontrado na base de dados externa.
+	at br.com.dev.bibliotecaalpha.service.LivroService.buscarNaApiExterna(LivroService.java:170)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$FastClassBySpringCGLIB$$efc874b2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$EnhancerBySpringCGLIB$$b53afae9.buscarNaApiExterna(<generated>)
+	at br.com.dev.bibliotecaalpha.facade.LivroFacade.buscarNaApiExterna(LivroFacade.java:110)
+	at br.com.dev.bibliotecaalpha.view.TelaCadastro.lambda$buscarNaApi$6(TelaCadastro.java:201)
+	at java.lang.Thread.run(Thread.java:750)
+2026-01-09 19:06:20.756 [Thread-9] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 6581339081
+2026-01-09 19:06:20.756 [Thread-9] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 6581339081
+2026-01-09 19:06:20.756 [Thread-9] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 6581339081
+2026-01-09 19:06:21.389 [Thread-9] WARN  b.c.d.b.service.OpenLibraryService - API retornou resposta vazia para o ISBN: 6581339081
+2026-01-09 19:06:21.391 [Thread-9] WARN  b.c.d.b.service.LivroService - API externa não retornou dados para ISBN: 6581339081
+2026-01-09 19:06:21.391 [Thread-9] ERROR b.c.d.b.service.LivroService - Falha na comunicação com API externa
+br.com.dev.bibliotecaalpha.exception.ServiceException: Livro não encontrado na base de dados externa.
+	at br.com.dev.bibliotecaalpha.service.LivroService.buscarNaApiExterna(LivroService.java:170)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$FastClassBySpringCGLIB$$efc874b2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$EnhancerBySpringCGLIB$$b53afae9.buscarNaApiExterna(<generated>)
+	at br.com.dev.bibliotecaalpha.facade.LivroFacade.buscarNaApiExterna(LivroFacade.java:110)
+	at br.com.dev.bibliotecaalpha.view.TelaCadastro.lambda$buscarNaApi$6(TelaCadastro.java:201)
+	at java.lang.Thread.run(Thread.java:750)
+2026-01-09 19:06:29.298 [Thread-10] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 666
+2026-01-09 19:06:29.298 [Thread-10] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 666
+2026-01-09 19:06:29.299 [Thread-10] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 666
+2026-01-09 19:06:29.918 [Thread-10] WARN  b.c.d.b.service.OpenLibraryService - API retornou resposta vazia para o ISBN: 666
+2026-01-09 19:06:29.918 [Thread-10] WARN  b.c.d.b.service.LivroService - API externa não retornou dados para ISBN: 666
+2026-01-09 19:06:29.918 [Thread-10] ERROR b.c.d.b.service.LivroService - Falha na comunicação com API externa
+br.com.dev.bibliotecaalpha.exception.ServiceException: Livro não encontrado na base de dados externa.
+	at br.com.dev.bibliotecaalpha.service.LivroService.buscarNaApiExterna(LivroService.java:170)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$FastClassBySpringCGLIB$$efc874b2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$EnhancerBySpringCGLIB$$b53afae9.buscarNaApiExterna(<generated>)
+	at br.com.dev.bibliotecaalpha.facade.LivroFacade.buscarNaApiExterna(LivroFacade.java:110)
+	at br.com.dev.bibliotecaalpha.view.TelaCadastro.lambda$buscarNaApi$6(TelaCadastro.java:201)
+	at java.lang.Thread.run(Thread.java:750)
+2026-01-09 19:06:57.141 [Thread-11] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9783936878059
+2026-01-09 19:06:57.141 [Thread-11] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9783936878059
+2026-01-09 19:06:57.141 [Thread-11] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9783936878059
+2026-01-09 19:07:00.458 [Thread-11] INFO  b.c.d.b.service.OpenLibraryService - Dados do livro 'Die Satanische Bibel' processados com sucesso.
+2026-01-09 19:07:00.458 [Thread-11] INFO  b.c.d.b.service.LivroService - Livro encontrado na API externa: Die Satanische Bibel
+2026-01-09 19:07:10.552 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de salvamento recebida. Título: Die Satanische Bibel, ISBN: 9783936878059
+2026-01-09 19:07:10.553 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Tentando salvar livro. Título: 'Die Satanische Bibel', ISBN: '9783936878059'
+2026-01-09 19:07:10.559 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro salvo com sucesso. ID: 40
+2026-01-09 19:07:51.683 [Thread-12] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9783717523000
+2026-01-09 19:07:51.684 [Thread-12] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9783717523000
+2026-01-09 19:07:51.684 [Thread-12] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9783717523000
+2026-01-09 19:07:52.328 [Thread-12] WARN  b.c.d.b.service.OpenLibraryService - API retornou resposta vazia para o ISBN: 9783717523000
+2026-01-09 19:07:52.328 [Thread-12] WARN  b.c.d.b.service.LivroService - API externa não retornou dados para ISBN: 9783717523000
+2026-01-09 19:07:52.328 [Thread-12] ERROR b.c.d.b.service.LivroService - Falha na comunicação com API externa
+br.com.dev.bibliotecaalpha.exception.ServiceException: Livro não encontrado na base de dados externa.
+	at br.com.dev.bibliotecaalpha.service.LivroService.buscarNaApiExterna(LivroService.java:170)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$FastClassBySpringCGLIB$$efc874b2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$EnhancerBySpringCGLIB$$b53afae9.buscarNaApiExterna(<generated>)
+	at br.com.dev.bibliotecaalpha.facade.LivroFacade.buscarNaApiExterna(LivroFacade.java:110)
+	at br.com.dev.bibliotecaalpha.view.TelaCadastro.lambda$buscarNaApi$6(TelaCadastro.java:201)
+	at java.lang.Thread.run(Thread.java:750)
+2026-01-09 19:08:01.612 [Thread-13] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9788542221091
+2026-01-09 19:08:01.612 [Thread-13] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9788542221091
+2026-01-09 19:08:01.612 [Thread-13] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9788542221091
+2026-01-09 19:08:02.259 [Thread-13] WARN  b.c.d.b.service.OpenLibraryService - API retornou resposta vazia para o ISBN: 9788542221091
+2026-01-09 19:08:02.260 [Thread-13] WARN  b.c.d.b.service.LivroService - API externa não retornou dados para ISBN: 9788542221091
+2026-01-09 19:08:02.260 [Thread-13] ERROR b.c.d.b.service.LivroService - Falha na comunicação com API externa
+br.com.dev.bibliotecaalpha.exception.ServiceException: Livro não encontrado na base de dados externa.
+	at br.com.dev.bibliotecaalpha.service.LivroService.buscarNaApiExterna(LivroService.java:170)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$FastClassBySpringCGLIB$$efc874b2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$EnhancerBySpringCGLIB$$b53afae9.buscarNaApiExterna(<generated>)
+	at br.com.dev.bibliotecaalpha.facade.LivroFacade.buscarNaApiExterna(LivroFacade.java:110)
+	at br.com.dev.bibliotecaalpha.view.TelaCadastro.lambda$buscarNaApi$6(TelaCadastro.java:201)
+	at java.lang.Thread.run(Thread.java:750)
+2026-01-09 19:08:08.993 [Thread-14] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9780197723821
+2026-01-09 19:08:08.993 [Thread-14] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9780197723821
+2026-01-09 19:08:08.993 [Thread-14] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9780197723821
+2026-01-09 19:08:09.640 [Thread-14] WARN  b.c.d.b.service.OpenLibraryService - API retornou resposta vazia para o ISBN: 9780197723821
+2026-01-09 19:08:09.640 [Thread-14] WARN  b.c.d.b.service.LivroService - API externa não retornou dados para ISBN: 9780197723821
+2026-01-09 19:08:09.640 [Thread-14] ERROR b.c.d.b.service.LivroService - Falha na comunicação com API externa
+br.com.dev.bibliotecaalpha.exception.ServiceException: Livro não encontrado na base de dados externa.
+	at br.com.dev.bibliotecaalpha.service.LivroService.buscarNaApiExterna(LivroService.java:170)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$FastClassBySpringCGLIB$$efc874b2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$EnhancerBySpringCGLIB$$b53afae9.buscarNaApiExterna(<generated>)
+	at br.com.dev.bibliotecaalpha.facade.LivroFacade.buscarNaApiExterna(LivroFacade.java:110)
+	at br.com.dev.bibliotecaalpha.view.TelaCadastro.lambda$buscarNaApi$6(TelaCadastro.java:201)
+	at java.lang.Thread.run(Thread.java:750)
+2026-01-09 19:08:18.741 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de exclusão recebida para ID: 31
+2026-01-09 19:08:18.741 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Solicitação de exclusão para o livro ID: 31
+2026-01-09 19:08:18.742 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro ID 31 excluído com sucesso
+2026-01-09 19:08:21.254 [Thread-15] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9788520926499
+2026-01-09 19:08:21.255 [Thread-15] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9788520926499
+2026-01-09 19:08:21.255 [Thread-15] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9788520926499
+2026-01-09 19:08:21.898 [Thread-15] WARN  b.c.d.b.service.OpenLibraryService - API retornou resposta vazia para o ISBN: 9788520926499
+2026-01-09 19:08:21.898 [Thread-15] WARN  b.c.d.b.service.LivroService - API externa não retornou dados para ISBN: 9788520926499
+2026-01-09 19:08:21.898 [Thread-15] ERROR b.c.d.b.service.LivroService - Falha na comunicação com API externa
+br.com.dev.bibliotecaalpha.exception.ServiceException: Livro não encontrado na base de dados externa.
+	at br.com.dev.bibliotecaalpha.service.LivroService.buscarNaApiExterna(LivroService.java:170)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$FastClassBySpringCGLIB$$efc874b2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$EnhancerBySpringCGLIB$$b53afae9.buscarNaApiExterna(<generated>)
+	at br.com.dev.bibliotecaalpha.facade.LivroFacade.buscarNaApiExterna(LivroFacade.java:110)
+	at br.com.dev.bibliotecaalpha.view.TelaCadastro.lambda$buscarNaApi$6(TelaCadastro.java:201)
+	at java.lang.Thread.run(Thread.java:750)
+2026-01-09 19:08:45.452 [Thread-16] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9786557821879
+2026-01-09 19:08:45.453 [Thread-16] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9786557821879
+2026-01-09 19:08:45.453 [Thread-16] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9786557821879
+2026-01-09 19:08:46.091 [Thread-16] WARN  b.c.d.b.service.OpenLibraryService - API retornou resposta vazia para o ISBN: 9786557821879
+2026-01-09 19:08:46.091 [Thread-16] WARN  b.c.d.b.service.LivroService - API externa não retornou dados para ISBN: 9786557821879
+2026-01-09 19:08:46.091 [Thread-16] ERROR b.c.d.b.service.LivroService - Falha na comunicação com API externa
+br.com.dev.bibliotecaalpha.exception.ServiceException: Livro não encontrado na base de dados externa.
+	at br.com.dev.bibliotecaalpha.service.LivroService.buscarNaApiExterna(LivroService.java:170)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$FastClassBySpringCGLIB$$efc874b2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at br.com.dev.bibliotecaalpha.service.LivroService$$EnhancerBySpringCGLIB$$b53afae9.buscarNaApiExterna(<generated>)
+	at br.com.dev.bibliotecaalpha.facade.LivroFacade.buscarNaApiExterna(LivroFacade.java:110)
+	at br.com.dev.bibliotecaalpha.view.TelaCadastro.lambda$buscarNaApi$6(TelaCadastro.java:201)
+	at java.lang.Thread.run(Thread.java:750)
+2026-01-09 19:09:10.023 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de salvamento recebida. Título: , ISBN: 9780751565355
+2026-01-09 19:09:10.023 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Tentando salvar livro. Título: '', ISBN: '9780751565355'
+2026-01-09 19:09:10.025 [AWT-EventQueue-0] WARN  b.c.d.b.service.LivroService - Validação falhou: Título vazio
+2026-01-09 19:09:11.474 [Thread-17] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 9780751565355
+2026-01-09 19:09:11.474 [Thread-17] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 9780751565355
+2026-01-09 19:09:11.474 [Thread-17] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 9780751565355
+2026-01-09 19:09:14.223 [Thread-17] INFO  b.c.d.b.service.OpenLibraryService - Dados do livro 'Harry Potter and the Cursed Child' processados com sucesso.
+2026-01-09 19:09:14.223 [Thread-17] INFO  b.c.d.b.service.LivroService - Livro encontrado na API externa: Harry Potter and the Cursed Child
+2026-01-09 19:09:20.372 [Thread-18] INFO  b.c.d.b.facade.LivroFacade - Solicitação de busca externa para ISBN: 978-0751565355
+2026-01-09 19:09:20.373 [Thread-18] INFO  b.c.d.b.service.LivroService - Iniciando consulta externa na OpenLibrary para ISBN: 978-0751565355
+2026-01-09 19:09:20.373 [Thread-18] INFO  b.c.d.b.service.OpenLibraryService - Consultando OpenLibrary API para ISBN: 978-0751565355
+2026-01-09 19:09:23.044 [Thread-18] INFO  b.c.d.b.service.OpenLibraryService - Dados do livro 'Harry Potter and the Cursed Child' processados com sucesso.
+2026-01-09 19:09:23.045 [Thread-18] INFO  b.c.d.b.service.LivroService - Livro encontrado na API externa: Harry Potter and the Cursed Child
+2026-01-09 19:09:28.593 [AWT-EventQueue-0] INFO  b.c.d.b.facade.LivroFacade - Solicitação de salvamento recebida. Título: Harry Potter and the Cursed Child, ISBN: 978-0751565355
+2026-01-09 19:09:28.594 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Tentando salvar livro. Título: 'Harry Potter and the Cursed Child', ISBN: '978-0751565355'
+2026-01-09 19:09:28.601 [AWT-EventQueue-0] INFO  b.c.d.b.service.LivroService - Livro salvo com sucesso. ID: 41
+2026-01-09 19:09:38.391 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 19:09:38.396 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-09 19:09:38.398 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-09 19:20:45.375 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Starting BibliotecaAlphaApplication using Java 1.8.0_472 on Luccas with PID 33128 (C:\Users\lucca\Área de Trabalho\LivriariaAlpha7\target\classes started by lucca in C:\Users\lucca\Área de Trabalho\LivriariaAlpha7)
+2026-01-09 19:20:45.377 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-09 19:20:46.043 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09 19:20:46.122 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2026-01-09 19:20:46.758 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09 19:20:46.898 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-01-09 19:20:47.223 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-01-09 19:20:47.753 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-09 19:20:48.186 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-09 19:20:48.214 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-01-09 19:20:49.638 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-01-09 19:20:49.658 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 19:20:50.625 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Started BibliotecaAlphaApplication in 6.102 seconds (JVM running for 7.348)
+2026-01-09 19:20:50.629 [main] INFO  b.c.d.b.BibliotecaAlphaApplication - Contexto Spring Boot inicializado.
+2026-01-09 19:20:52.344 [AWT-EventQueue-0] INFO  b.c.d.b.BibliotecaAlphaApplication - Interface gráfica iniciada.
+2026-01-09 19:20:54.999 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09 19:20:55.003 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-09 19:20:55.012 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
